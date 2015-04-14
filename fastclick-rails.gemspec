@@ -1,11 +1,8 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastclick-rails'
 
 Gem::Specification.new do |spec|
   spec.name          = "fastclick-rails"
-  spec.version       = Fastclick::Rails::VERSION
+  spec.version       = "1.0.7"
   spec.authors       = ["Masaki Komagata"]
   spec.email         = ["komagata@gmail.com"]
   spec.description   = %q{gem for fastclick.js}
